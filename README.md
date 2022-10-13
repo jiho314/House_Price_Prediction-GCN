@@ -1,6 +1,6 @@
 # House_Price_Predictor-GCN
 
-## Modeling Project E: GNN, GCN 기반 집 값 예측 모델링 
+## Modeling Project E: GCN 기반 집 값 예측 모델링 
 Collaborator: 김남훈, 박지호, 이승연, 정건우, 한예림
 ***
 
