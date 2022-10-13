@@ -8,25 +8,32 @@ Collaborator: 김남훈, 박지호, 이승연, 정건우, 한예림
 ## Overview
 서울시 집 값 예측 모델링
 
-### Data
-네이버 부동산 서울시 데이터 Crawling
-- 서울시 25개구, 구별로 6000개의 부동산, 총 15만개의 집 데이터
-- Crawling: nl_crawler.ipynb
-- 전처리: preprocess.ipynb
+## 1. Data
+
+    nl_crawler.ipynb: 네이버 부동산, 서울시 집 데이터 Crawling
+    preprocess.ipynb: feature 전처리
+    
+    
+- 총 15만개의 집 데이터(서울시 25개구, 구별로 6000개 Crawled)
 - columns: latitude, longitude, goodsType, payType, floor, contractArea, realArea, direction, tagList, repImgUrl, Deposit, monthlyPay
 - targets: Deposit, monthlyPay
+- repo에는 sample 데이터(서대문구)만 첨부
 
-위도, 경도 기준 scatter plot:  
+데이터 scatter plot(x= 경도, y = 위도):  
+<p align = "center">
 <img src="/md_src/data_scatter.png" width="600" height="400" align = 'center'/>
+</p>
 
 
-### Crawling
-참고링크:
-https://github.com/JeeheeMin/land_crawl
+## 2. Crawling
+
+참고링크: https://github.com/JeeheeMin/land_crawl
+<p align = "center">
+<img src="/md_src/nl_img.png" width="500" height="300" align = 'center'/>
+</p>
 
 
-
-### Model
+## 3. Model
 1. Linear Regression & Ensemble
 
 2. GCN Modeling
