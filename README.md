@@ -1,6 +1,5 @@
 # House_Price_Predictor-GCN
 
-***
 ## Modeling Project E: 위치 기반 집 값 예측 모델링 
 Collaborator: 김남훈, 박지호, 이승연, 정건우, 한예림
 ***
@@ -21,7 +20,7 @@ Machine Learning과 Graph Convolutional Network로 네이버 부동산의 집 �
 
 - 데이터 scatter plot(x= 경도, y = 위도):  
 <p align = "center">
-<img src="/md_src/data_scatter.png" width="600" height="400" align = 'center'/>
+<img src="/md_src/data_scatter.png" width="450" height="300" align = 'center'/>
 </p>
 
 
@@ -37,8 +36,8 @@ Machine Learning과 Graph Convolutional Network로 네이버 부동산의 집 �
 
 ### 1) Linear Regression & Ensemble
 
+- monthlyPay 예측 모델 구현
 - Linear, RandomForest, GradientBoost, XGBoost, LGBoost Regressor 모델 학습 및 비교
-- monthlyPay 예측
 - Prediction example:
 <p align = "center">
 <img src="/md_src/ml_result.png" width="500" height="300" align = 'center'/>
@@ -57,6 +56,6 @@ Machine Learning과 Graph Convolutional Network로 네이버 부동산의 집 �
 ### Model Structure:
 ![모델](/md_src/model_diagram.png)
 
-#### Result:
+#### Loss Result:
 <img src="/md_src/GCN_result.png" width="350" height="250" align = 'center'/>
 
