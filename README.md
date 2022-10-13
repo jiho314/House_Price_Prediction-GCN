@@ -1,7 +1,8 @@
 # House_Price_Predictor-GCN
 
 ***
-Collaborator: 김남훈 박지호 이승연 정건우 한예림
+## Modeling Project E   
+Collaborator: 김남훈, 박지호, 이승연, 정건우, 한예림
 ***
 
 ## Overview
@@ -9,7 +10,7 @@ Collaborator: 김남훈 박지호 이승연 정건우 한예림
 
 ### Data
 네이버 부동산 서울시 데이터 Crawling
-- 서울시 25개구, 구별로 6000개의 부동산, 총 15만개의 데이터 Crawled
+- 서울시 25개구, 구별로 6000개의 부동산, 총 15만개의 집 데이터
 - 
 
 
@@ -26,4 +27,5 @@ https://github.com/JeeheeMin/land_crawl
 2. GCN Modeling
 
 ![제목](/md_src/model_diagram.png)
+![제목](/md_src/data visualize.png)
 
