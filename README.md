@@ -59,3 +59,4 @@ Graph Convolutional Network로 네이버 부동산의 데이터를 학습하는 
 #### Loss Result:
 <img src="/md_src/GCN_result.png" width="350" height="250" align = 'center'/>
 
+... to be continued ... 
